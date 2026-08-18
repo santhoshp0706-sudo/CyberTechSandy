@@ -1,0 +1,8 @@
+{
+  "rules": [
+    {"id": "r1", "action": "allow", "direction": "in", "proto": "icmp", "ip": "", "port": 0, "note": "allow ping"},
+    {"id": "r2", "action": "block", "direction": "in", "proto": "tcp", "ip": "", "port": 23,  "note": "block telnet"},
+    {"id": "r3", "action": "block", "direction": "in", "proto": "tcp", "ip": "", "port": 3389, "note": "block RDP from internet"},
+    {"id": "r4", "action": "block", "direction": "in", "proto": "udp", "ip": "", "port": 69,  "note": "block TFTP"}
+  ]
+}

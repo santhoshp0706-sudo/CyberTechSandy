@@ -1,3 +1,7 @@
+# Dependencies / build
+node_modules/
+package-lock.json
+
 # Python
 __pycache__/
 *.pyc
@@ -10,8 +14,10 @@ venv/
 .DS_Store
 Thumbs.db
 
+# Editor
+.vscode/
+.idea/
+*.swp
+
 # Local incident artifacts (generated reports)
 templates/INC-*.md
-
-# Editor
-*.swp

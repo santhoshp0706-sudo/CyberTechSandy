@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Santhosh P — Resume</title>
+  <style>
+    /* ============ ATS-FRIENDLY RESUME ============ */
+    :root {
+      --ink: #1a1a1a;
+      --muted: #444444;
+      --rule: #b8b8b8;
+      --accent: #1f4e79;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Calibri, Arial, Helvetica, sans-serif;
+      font-size: 10.5pt;
+      line-height: 1.45;
+      color: var(--ink);
+      background: #fff;
+      margin: 0 auto;
+      max-width: 800px;
+      padding: 48px 56px;
+    }
+    h1 { font-size: 22pt; letter-spacing: 0.5px; color: var(--accent); }
+    .subtitle { font-size: 12pt; font-weight: 600; color: var(--muted); margin-top: 2px; }
+    .contact {
+      font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+      font-size: 10pt; color: var(--muted);
+      margin-top: 8px; border-bottom: 2px solid var(--accent); padding-bottom: 12px;
+    }
+    h2 {
+      font-size: 12pt; color: var(--accent); text-transform: uppercase;
+      letter-spacing: 1px; border-bottom: 1px solid var(--rule);
+      padding-bottom: 3px; margin: 18px 0 8px;
+    }
+    .job-title-row { display: flex; justify-content: space-between; align-items: baseline; }
+    .job-title { font-weight: 700; font-size: 11pt; }
+    .dates { font-style: italic; color: var(--muted); font-size: 9.5pt; white-space: nowrap; }
+    .company { font-weight: 600; }
+    .meta { color: var(--muted); font-size: 9.5pt; margin: 1px 0 6px; }
+    ul { list-style: disc; margin: 4px 0 8px 20px; }
+    ul li { margin-bottom: 3px; }
+    .skills-line { margin: 4px 0 8px; }
+    .project-block { margin-bottom: 10px; }
+    .project-title { font-weight: 700; }
+    .project-role { font-style: italic; color: var(--muted); font-size: 9.5pt; }
+    .edu-block { margin-bottom: 8px; }
+    .edu-degree { font-weight: 700; }
+    .certs-list li span, .languages-line span { font-weight: 600; }
+
+    @media print {
+      body { padding: 24px; max-width: none; }
+      h1 { font-size: 20pt; }
+      h2 { break-after: avoid; }
+      .job-title-row, h2, ul li { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SANTHOSH P</h1>
+    <p class="subtitle">Full-Stack Web Developer | PHP / Laravel | Cybersecurity Enthusiast</p>
+    <p class="contact">
+      Polur, Tamil Nadu, India ·
+      santhoshp0706@gmail.com ·
+      +91 97901 60930 ·
+      linkedin.com/in/santhosh-p-859230279 ·
+      github.com/santhoshp0706-sudo
+    </p>
+  </header>
+
+  <section>
+    <h2>Professional Summary</h2>
+    <p>
+      Detail-oriented, organized and meticulous Full-Stack Web Developer with hands-on experience in
+      PHP, Laravel, MySQL and JavaScript. Works at a fast pace to meet tight deadlines and delivers
+      customer-focused features by integrating REST and third-party APIs. Blends web development with a
+      strong cybersecurity foundation (CEH v12) — applying OWASP Top 10, penetration testing and ethical
+      hacking principles to build secure, scalable applications. Enthusiastic team player ready to
+      contribute to company success.
+    </p>
+  </section>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <p class="skills-line">
+      <strong>Languages &amp; Frameworks:</strong> PHP, Laravel, MySQL, JavaScript, jQuery, AJAX, HTML5 &amp; CSS3, Bootstrap, WordPress, Python
+    </p>
+    <p class="skills-line">
+      <strong>APIs &amp; Architecture:</strong> REST API Development &amp; Integration, Third-Party API Integration, Client-Side Frameworks
+    </p>
+    <p class="skills-line">
+      <strong>Cybersecurity:</strong> OWASP Top 10, Penetration Testing, Ethical Hacking, Metasploit, Burp Suite, Nmap, Wireshark
+    </p>
+  </section>
+
+  <section>
+    <h2>Professional Experience</h2>
+
+    <div class="job-title-row">
+      <span class="job-title">PHP Developer</span>
+      <span class="dates">Jan 2021 - Jul 2021 · Guindy, Chennai</span>
+    </div>
+    <p class="company">Xenovex Technologies</p>
+    <ul>
+      <li>Planned, coded and deployed web-based applications using PHP, MySQL and JavaScript, translating customer requirements into clean client frameworks.</li>
+      <li>Configured and deployed existing and future REST APIs, integrated with third-party APIs to extend application functionality.</li>
+      <li>Collaborated with project managers and developers to define parameters and plan detailed specifications with clear project deliverables and timelines.</li>
+    </ul>
+
+    <div class="job-title-row">
+      <span class="job-title">Line Quality</span>
+      <span class="dates">Jan 2019 - Jan 2021 · Padi, Chennai</span>
+    </div>
+    <p class="company">Breaks India Pvt Ltd</p>
+    <ul>
+      <li>Conducted quality checks of automobile parts during production to ensure compliance with company requirements.</li>
+      <li>Detected flaws, maintained quality documentation, and cooperated with the production team to enhance product quality and lower rejection rates.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+
+    <div class="project-block">
+      <span class="project-title">Banking Project</span>
+      <span class="project-role">PHP / Laravel Backend · Sep 2022 - Mar 2023</span>
+      <p>Developed banking applications using PHP, Laravel, MySQL, JavaScript and REST APIs, implementing customer requirements and backend functionality. Integrated third-party APIs and collaborated with developers to deliver project features per specifications and timelines.</p>
+    </div>
+
+    <div class="project-block">
+      <span class="project-title">TO-DO List Application</span>
+      <span class="project-role">jQuery, AJAX &amp; Email · Aug 2023</span>
+      <p>Built a task-management application using PHP, MySQL, jQuery, AJAX and JavaScript with task management and email functionality. Implemented AJAX-based form operations, tested application features, and deployed per customer requirements.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+
+    <div class="job-title-row edu-block">
+      <span class="edu-degree">B.E — Computer Science &amp; Engineering</span>
+      <span class="dates">Expected 2027</span>
+    </div>
+    <p class="meta">Annamalaiar College of Engineering · Modaiyur, Tamil Nadu</p>
+
+    <div class="job-title-row edu-block">
+      <span class="edu-degree">Certification in IT/ITes — Web Development</span>
+      <span class="dates">2022</span>
+    </div>
+    <p class="meta">CADD Centre · Madha Engineering College · Chennai, Tamil Nadu</p>
+
+    <div class="job-title-row edu-block">
+      <span class="edu-degree">Diploma — Electrical &amp; Electronics Engineering (EEE)</span>
+      <span class="dates">2018</span>
+    </div>
+    <p class="meta">Sri Renugamble Polytechnic College · Polur, Tamil Nadu</p>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <ul class="certs-list">
+      <li><span>CEH v12</span> — Certified Ethical Hacker</li>
+      <li><span>NPTEL</span> — Certification (Technical) </li>
+      <li><span>Google</span> — Google Cloud Security</li>
+      <li><span>CADD Centre</span> — Full-Stack Web Development</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Languages</h2>
+    <p class="languages-line"><span>Tamil</span> — Native &nbsp;·&nbsp; <span>English</span> — Professional Working Proficiency</p>
+  </section>
+
+  <section>
+    <h2>Awards</h2>
+    <ul>
+      <li>Web Development Certification — Excellence Recognition</li>
+    </ul>
+  </section>
+
+</body>
+</html>

@@ -220,7 +220,7 @@ Every project in **CyberTechSandy** is created with a focus on practical learnin
 📧 **Email:** [santhoshp0706@gmail.com](mailto:santhoshp0706@gmail.com)
 💼 **LinkedIn:** Santhosh P
 🐙 **GitHub:** CyberTechSandy
-🌐 **Portfolio:** Coming Soon
+🌐 **Portfolio:** [`portfolio/`](portfolio/index.html) — live UI/UX site
 
 ---
 

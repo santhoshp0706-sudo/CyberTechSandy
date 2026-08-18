@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local incident artifacts (generated reports)
+templates/INC-*.md
+
+# Editor
+*.swp
